@@ -108,3 +108,7 @@ php artisan storage:link --force
 ```shell
 php artisan serve
 ```
+
+!!!!!!!!!!!!!!!!!!
+### Register/Login
+I made "/register" and "/login" route for Sign In, Sign Up pages.
