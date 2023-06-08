@@ -72,7 +72,7 @@ php artisan migrate
 
 ### Place Images
 
-This repository contains a `images.zip` file. Unzip it and place all images under `/storage/app/images` directory. Create images directory if not exists.
+This repository contains a `images.zip` file. Unzip it and place all images under `/public/images` directory. Create images directory if not exists.
 
 ### Install Node packages
 
