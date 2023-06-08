@@ -25,7 +25,7 @@
 
     <section class="h-screen min-w-full grid lg:grid-cols-2 ">
         <div class="h-full lg:block hidden">
-            <img src="{{ asset('/images/tree.png') }}" class="w-full h-full object-cover" alt="">
+            <img src="{{ asset('/images/tree.png') }}" class="w-full h-screen object-cover" alt="">
         </div>
 
 
