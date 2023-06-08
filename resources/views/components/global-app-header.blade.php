@@ -15,7 +15,7 @@
                         clip-rule="evenodd" />
                 </svg>
             </button>
-            <div class="flex items-center gap-3 md:gap-5 ">
+            <div class="flex items-center gap-3">
                 <div class="">
                     <x-application-logo></x-application-logo>
 
@@ -24,28 +24,23 @@
                     <div class="flex items-center space-x-12 pl-4">
                         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                         <a href="{{ route('home') }}"
-                            class=" text-primaryColor hover:border-b-2 w-16 whitespace-nowrap border-b-2 border-secondaryColor flex items-center justify-center font-bold  py-2 "
+                            class=" text-primaryColor hover:border-b-2 w-14 whitespace-nowrap border-b-2 border-secondaryColor flex items-center justify-center font-bold  py-2 "
                             aria-current="page">UI Webkit</a>
                         <a href="#"
-                            class="text-seborder-secondaryColor w-16 hover:border-b border-b border-transparent hover:border-secondaryColor   py-2 flex items-center justify-center whitespace-nowrap font-bold">Vidéos</a>
+                            class="text-seborder-secondaryColor w-12 hover:border-b border-b border-transparent hover:border-secondaryColor   py-2 flex items-center justify-center whitespace-nowrap font-bold">Vidéos</a>
                         <a href="#"
-                            class="text-seborder-secondaryColor w-16 hover:border-b border-b border-transparent hover:border-secondaryColor   py-2 flex items-center justify-center whitespace-nowrap  font-bold">Exemples</a>
+                            class="text-seborder-secondaryColor w-12 hover:border-b border-b border-transparent hover:border-secondaryColor   py-2 flex items-center justify-center whitespace-nowrap  font-bold">Exemples</a>
                         <a href="#"
-                            class="text-seborder-secondaryColor w-16  hover:border-b border-b border-transparent hover:border-secondaryColor   py-2 flex items-center whitespace-nowrap justify-center  font-bold">À
+                            class="text-seborder-secondaryColor w-12  hover:border-b border-b border-transparent hover:border-secondaryColor   py-2 flex items-center whitespace-nowrap justify-center  font-bold">À
                             propos</a>
                         <a href="#"
-                            class="text-seborder-secondaryColor w-16  hover:border-b border-b border-transparent hover:border-secondaryColor   py-2 flex items-center justify-center  font-bold">Blog</a>
+                            class="text-seborder-secondaryColor w-12  hover:border-b border-b border-transparent hover:border-secondaryColor   py-2 flex items-center justify-center  font-bold">Blog</a>
 
-                        <a href="{{ route('login') }}"
-                            class="text-seborder-secondaryColor w-16  hover:border-b border-b border-transparent hover:border-secondaryColor   py-2 flex items-center justify-center  font-bold">{{ __('Connexion') }}</a>
-
-                        <a href="{{ route('register') }}"
-                            class="text-seborder-secondaryColor w-16  hover:border-b border-b border-transparent hover:border-secondaryColor   py-2 flex items-center justify-center  font-bold">{{ __('Enregistrer') }}</a>
 
                     </div>
                 </div>
             </div>
-            <div class="flex items-center gap-6">
+            <div class="flex items-center gap-3">
                 <div class="hidden lg:block">
                     <a href="#"
                         class="hover:opacity-75  bg-primaryColor text-white rounded-full px-5 py-3 font-medium">Download</a>
