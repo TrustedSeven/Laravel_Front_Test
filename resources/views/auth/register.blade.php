@@ -1,6 +1,6 @@
 <x-guest-layout>
 
-    <div x-data="{ step: 1 }">
+    <div x-data="{ step: 1 }" class="pb-20>
         <form method="POST" action="{{ route('register') }}">
             @csrf
 
@@ -114,7 +114,7 @@
             Leaving: "transform transition ease-in-out duration-500 sm:duration-700"
             From: "translate-x-0"
             To: "translate-x-full" --}}
-            <div 
+            <div
                 x-show="step === 2" x-transition>
                 <div class="pt-6 pb-4 mt-1">
                     <label for="#"><span class="font-inter">2/2</span> -
